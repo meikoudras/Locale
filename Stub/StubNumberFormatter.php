@@ -440,6 +440,12 @@ class StubNumberFormatter
      */
     public function getSymbol($attr)
     {
+        switch($attr){
+            case DECIMAL_SEPARATOR_SYMBOL:
+                return '.';
+            case GROUPING_SEPARATOR_SYMBOL:
+                return ',';
+        }
         throw new MethodNotImplementedException(__METHOD__);
     }
 

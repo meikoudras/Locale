@@ -1,5 +1,5 @@
 {
-    "name": "meikoudras/locale",
+    "name": "symfony/locale",
     "type": "library",
     "description": "Symfony Locale Component",
     "keywords": [],
